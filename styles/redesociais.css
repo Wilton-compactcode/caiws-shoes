@@ -1,0 +1,24 @@
+.social-list {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    text-align: center;
+}
+
+.social-list-item {
+    flex: 1;
+    padding: 16px;
+}
+
+.social-thumbnail {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.social-username {
+    font-size: 0.6em;
+    font-weight: 500;
+}
+

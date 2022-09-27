@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
+
+    <title>Caiws Shoes | Catálogo</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/button.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/section.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header layout-fluid">
+        <a class="header-logo" id="logo" href="index.html">
+            <img src="images/logoshoes.png" alt="Caiws Shoes">
+        </a>
+
+        <nav>
+            <ul class="header-navigation-list">
+                <li class="header-navigation-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
+                    <a href="catalalogo.html">Catálogo</a>
+                </li>
+                <li class="header-navigation-item">|</li>
+                <li class="header-navigation-item">
+                    <a href="contato.html">Contato</a>
+                </li>
+                <li class="header-navigation-item">
+                    <a class="button" href="#">Faça seu pedido</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="section layout">
+            <h2 class="section-title">Entre em contato</h2>
+
+            <form action="" class="form">
+                <div class="form-row">
+                    <label class="form-label-block" for="name">Nome</label>
+                    <input class="form-input" id="name" name="name" type="text">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="email">E-mail</label>
+                    <input class="form-input" id="email" name="email" type="email">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="phone">Telefone</label>
+                    <input class="form-input" id="phone" name="phone" type="tel">
+                </div>
+
+                <div class="form-row">
+                    <label class="form-label-block" for="message">Mensagem</label>
+                    <textarea class="form-input" name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-row form-row-inline">
+                    <input class="form-input" id="newsletter" name="newsletter" type="checkbox">
+                    <label class="form-label-inline" for="newsletter">Quer receber nossos conteúdos?</label>
+                </div>
+
+                <div class="form-row">
+                    <button class="button form-button">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer layout-fluid">
+        <div class="footer-content">
+             <small class="footer-content-text"> 
+                 ©2022 <a href="#"><b><u>Wilton Gonçalves</u></b></a>.
+                 <a href="#">Privacidade</a>
+                 |
+                 <a href="#">Termos</a>
+                 |
+                 <a href="#">Preferências de cookies</a>
+             </small>
+         </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.banner-highlight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url(../images/header.jpg);
+    background-size: contain;
+    background-position: center;
+    padding: 50px 40px;
+}
+
+.banner-highlight-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    background-color: #eb96a3;
+    padding: 24px;
+
+    width: auto;
+    max-width: 65%;
+}
+
+.banner-highlight-title {
+    font-size: 18px;
+}
+
+.banner-highlight-subtitle {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.banner-highlight-description {
+    margin-bottom: 24px;
+}
+
+.banner-highlight-image-background img {
+    object-fit: contain;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-highlight-content {
+        width: 100%;
+        max-width: initial;
+    }
+
+    .banner-highlight-image-background {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .banner-highlight-image-background {
+        width: 200px;
+        height: 200px;
+    }
+}
