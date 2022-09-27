@@ -35,6 +35,7 @@ main{
     text-decoration: none;
     color: #fff;
     background-color: #e9520d;
+    cursor: pointer;
  }
  .button-comprar:hover {
     color: #2a0f14;
@@ -42,4 +43,3 @@ main{
     text-decoration: none;
 }
 
- 
