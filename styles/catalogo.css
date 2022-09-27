@@ -26,5 +26,20 @@ main{
     justify-content: center;
     object-fit: cover;
  }
+ .button-comprar{
+    border: 2px solid #e9520d;
+    border-radius: 12px;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e9520d;
+ }
+ .button-comprar:hover {
+    color: #2a0f14;
+    background-color: transparent;
+    text-decoration: none;
+}
 
  
